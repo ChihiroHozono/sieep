@@ -6,7 +6,7 @@ more sleep...
 
 # preparation
 - set enviroment variable for database password.
-    ex.)set DB_PASSWORD="your database password"
+    ex.)export DB_PASSWORD="your database password"
 
 # note
 ## DB
