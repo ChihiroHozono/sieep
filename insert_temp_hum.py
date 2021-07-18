@@ -34,7 +34,7 @@ def execute_sql() -> None:
                     f"INSERT INTO room_status(temperature, humidity) VALUES({result.temperature}, {result.humidity});"
                 )
                 con.commit()
-            time.sleep(1)
+            time.sleep(30)
 
     except Exception as e:
         print(e)
